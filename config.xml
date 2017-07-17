@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Config>
+    <TargetDirectory value="C:\wisenut\sf-1v5.3\log" SubDirectoryType="y">
+        <TargetSubDirectoryLevel value="6" />
+        <RemoveBlankDirectory value="y" />
+        <DenyDirectory>
+            <value>querylog</value>
+        </DenyDirectory>
+        <FileDateExpression>
+            <value>yyyyMMdd</value>
+            <value>yyyy-MM-dd</value>
+            <value>yyyy.MM.dd</value>
+        </FileDateExpression>
+        <TargetExtention>
+            <value>log</value>
+            <value>txt</value>
+            <value>out</value>
+            <value>output</value>
+        </TargetExtention>
+        <LogRetentionPeriodDay value="9" />
+    </TargetDirectory>
+    <TargetDirectory value="C:\wisenut\sf-1v5.3\manager\webapps\manager\WEB-INF\wnapp\logs" SubDirectoryType="n">
+        <TargetSubDirectoryLevel value="6" />
+        <RemoveBlankDirectory value="y" />
+        <FileDateExpression>
+            <value>yyyyMMdd</value>
+            <value>yyyy-MM-dd</value>
+            <value>yyyy.MM.dd</value>
+        </FileDateExpression>
+        <TargetExtention>
+            <value>log</value>
+            <value>txt</value>
+            <value>out</value>
+            <value>output</value>
+        </TargetExtention>
+        <LogRetentionPeriodDay value="9" />
+    </TargetDirectory>
+</Config>
